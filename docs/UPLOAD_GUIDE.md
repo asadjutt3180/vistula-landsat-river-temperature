@@ -2,10 +2,11 @@
 
 **Where:** code and small data on **GitHub**; a citable, permanent copy with a **DOI** on **Zenodo** (free, operated by CERN, accepted by MDPI). The large whole-river composites (252 MB zipped) go to Zenodo only, because GitHub rejects files larger than 100 MB.
 
-You end up with three links for the paper:
+Published links:
 1. GitHub repository (code, small data) – `https://github.com/asadjutt3180/vistula-landsat-river-temperature`
-2. Zenodo DOI of the GitHub release – `10.5281/zenodo.XXXXXXX`
-3. Zenodo DOI of the large dataset – `10.5281/zenodo.YYYYYYY`
+2. Zenodo record (code snapshot + all data, single DOI) – `https://doi.org/10.5281/zenodo.22970527`
+
+Note: the automatic GitHub→Zenodo release integration (Part B) did not complete, so the code snapshot was uploaded to the Zenodo record manually together with the data (Part C).
 
 ---
 

@@ -1,5 +1,7 @@
 # Landsat thermal calibration for river temperature monitoring — Vistula River (2000–2024)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22970527.svg)](https://doi.org/10.5281/zenodo.22970527)
+
 Code and data for:
 
 > Basheer, A.; Amnuaylojaroen, T.; Ashraf, M.N.; Ptak, M. **Landsat Thermal Calibration for River Temperature Monitoring: A 25-Year Case Study of the Vistula River.** *Water* (MDPI), 2026 (under review, manuscript water-4575579).
@@ -54,7 +56,7 @@ cd code/python
 python run_all.py
 ```
 
-Steps 1–4 use only the files in `data/raw` and run in a few minutes. Step 5 needs the whole-river monthly centreline composites from Zenodo (DOI below): unzip them into `data/large/` (or set the environment variable `VISTULA_LARGE_DIR`). Without them, step 5 still computes the trends and the August anomaly from `data/processed/monthly_river_mean_lst.csv`.
+Steps 1–4 use only the files in `data/raw` and run in a few minutes. Step 5 needs the whole-river monthly centreline composites from Zenodo (https://doi.org/10.5281/zenodo.22970527): unzip them into `data/large/` (or set the environment variable `VISTULA_LARGE_DIR`). Without them, step 5 still computes the trends and the August anomaly from `data/processed/monthly_river_mean_lst.csv`.
 
 Results were produced with Python 3.14.6, pandas 3.0.3, NumPy 2.5.0, SciPy 1.18.0, scikit-learn 1.9.1, statsmodels and matplotlib 3.11.0; random seeds are fixed at 42. Tree-ensemble scores in the algorithm comparison can differ in the third or fourth decimal between scikit-learn versions. The published bootstrap (Supplementary Table S4) used an unseeded generator; the seeded bootstrap here agrees to within 0.003.
 
@@ -71,8 +73,7 @@ Code: MIT licence (`LICENSE`). Derived data produced in this study: CC BY 4.0 (`
 ## Data and code availability
 
 * Code and small datasets (this repository): https://github.com/asadjutt3180/vistula-landsat-river-temperature
-* Archived release of this repository: https://doi.org/10.5281/zenodo.XXXXXXX
-* Whole-river monthly centreline composites and centreline points: https://doi.org/10.5281/zenodo.YYYYYYY
+* Archived code, datasets, whole-river monthly centreline composites and centreline points (Zenodo): https://doi.org/10.5281/zenodo.22970527
 
 ## Citation
 

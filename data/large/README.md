@@ -1,6 +1,6 @@
 # Large files (not stored in Git)
 
-Download from Zenodo (https://doi.org/10.5281/zenodo.YYYYYYY) and unzip here:
+Download from Zenodo (https://doi.org/10.5281/zenodo.22970527) and unzip here:
 
 | File in the Zenodo record | Contents | Size |
 |---|---|---|
