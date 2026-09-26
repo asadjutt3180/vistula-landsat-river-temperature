@@ -3,7 +3,7 @@
 **Where:** code and small data on **GitHub**; a citable, permanent copy with a **DOI** on **Zenodo** (free, operated by CERN, accepted by MDPI). The large whole-river composites (252 MB zipped) go to Zenodo only, because GitHub rejects files larger than 100 MB.
 
 You end up with three links for the paper:
-1. GitHub repository (code, small data) – `https://github.com/<USERNAME>/vistula-landsat-river-temperature`
+1. GitHub repository (code, small data) – `https://github.com/asadjutt3180/vistula-landsat-river-temperature`
 2. Zenodo DOI of the GitHub release – `10.5281/zenodo.XXXXXXX`
 3. Zenodo DOI of the large dataset – `10.5281/zenodo.YYYYYYY`
 
@@ -22,14 +22,14 @@ You end up with three links for the paper:
 4. Click **Publish repository**, untick "Keep this code private", **Publish**.
 
 ### Option 2 – command line (Git is already installed on this computer)
-Open *Git Bash* in the folder and run, replacing `<USERNAME>`:
+Open *Git Bash* in the folder and run:
 ```bash
 cd "/e/Vistula river/GITHUB/vistula-landsat-river-temperature"
 git init
 git add .
 git commit -m "Initial release for Water manuscript"
 git branch -M main
-git remote add origin https://github.com/<USERNAME>/vistula-landsat-river-temperature.git
+git remote add origin https://github.com/asadjutt3180/vistula-landsat-river-temperature.git
 git push -u origin main
 ```
 The first push opens a browser window to sign in to GitHub.
@@ -37,7 +37,7 @@ The first push opens a browser window to sign in to GitHub.
 ### Option 3 – web upload
 On the empty repository page choose **uploading an existing file** and drag the *contents* of the folder (not the folder itself). Works because every file is below 25 MB; the hidden files `.gitignore` and `.zenodo.json` may need to be dragged separately (enable "show hidden files" in Explorer).
 
-After uploading, replace `<USERNAME>` in `README.md` and `CITATION.cff` with your GitHub user name (edit on GitHub with the pencil icon).
+The GitHub user name (asadjutt3180) is already filled in in `README.md` and `CITATION.cff`.
 
 ---
 

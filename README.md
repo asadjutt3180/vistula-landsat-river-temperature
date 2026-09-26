@@ -70,7 +70,7 @@ Code: MIT licence (`LICENSE`). Derived data produced in this study: CC BY 4.0 (`
 
 ## Data and code availability
 
-* Code and small datasets (this repository): https://github.com/<USERNAME>/vistula-landsat-river-temperature
+* Code and small datasets (this repository): https://github.com/asadjutt3180/vistula-landsat-river-temperature
 * Archived release of this repository: https://doi.org/10.5281/zenodo.XXXXXXX
 * Whole-river monthly centreline composites and centreline points: https://doi.org/10.5281/zenodo.YYYYYYY
 

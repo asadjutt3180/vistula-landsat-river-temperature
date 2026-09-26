@@ -4,7 +4,7 @@ title: "Landsat thermal calibration for river temperature monitoring: Vistula Ri
 version: 1.0.0
 date-released: 2026-09-26
 license: MIT
-repository-code: "https://github.com/<USERNAME>/vistula-landsat-river-temperature"
+repository-code: "https://github.com/asadjutt3180/vistula-landsat-river-temperature"
 authors:
   - family-names: Basheer
     given-names: Asad
