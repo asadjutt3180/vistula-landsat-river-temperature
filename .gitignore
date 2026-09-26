@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Large files are archived on Zenodo, not in Git (GitHub limit 100 MB per file)
+data/large/*
+!data/large/README.md
+*.zip
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+.vscode/
+.idea/

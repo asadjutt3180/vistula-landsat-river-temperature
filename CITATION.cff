@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the article and this repository."
+title: "Landsat thermal calibration for river temperature monitoring: Vistula River (2000–2024) — code and data"
+version: 1.0.0
+date-released: 2026-09-26
+license: MIT
+repository-code: "https://github.com/<USERNAME>/vistula-landsat-river-temperature"
+authors:
+  - family-names: Basheer
+    given-names: Asad
+    affiliation: "School of Earth System Science, Tianjin University, Tianjin 300350, China"
+  - family-names: Amnuaylojaroen
+    given-names: Teerachai
+    affiliation: "School of Energy and Environment, University of Phayao, Phayao 56000, Thailand"
+  - family-names: Ashraf
+    given-names: Muhammad Nabil
+    affiliation: "College of Environmental Science and Engineering, Nankai University, Tianjin 300350, China"
+  - family-names: Ptak
+    given-names: Mariusz
+    affiliation: "Department of Hydrology and Water Management, Adam Mickiewicz University, 61-680 Poznań, Poland"
+keywords:
+  - water temperature
+  - Landsat
+  - thermal infrared
+  - calibration
+  - Vistula River
+  - Google Earth Engine
+preferred-citation:
+  type: article
+  title: "Landsat Thermal Calibration for River Temperature Monitoring: A 25-Year Case Study of the Vistula River"
+  authors:
+    - family-names: Basheer
+      given-names: Asad
+    - family-names: Amnuaylojaroen
+      given-names: Teerachai
+    - family-names: Ashraf
+      given-names: Muhammad Nabil
+    - family-names: Ptak
+      given-names: Mariusz
+  journal: Water
+  year: 2026

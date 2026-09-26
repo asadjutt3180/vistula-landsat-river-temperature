@@ -1,0 +1,44 @@
+{
+ "stages_raw_bounds_z11_zreg_iqr": [
+  942,
+  942,
+  917,
+  876,
+  876
+ ],
+ "pairs_by_station_raw": {
+  "Gdansk_Swibno": 327,
+  "Torun": 311,
+  "Chelmno": 304
+ },
+ "pairs_by_station_qc": {
+  "Gdansk_Swibno": 314,
+  "Torun": 302,
+  "Chelmno": 260
+ },
+ "before_qc": {
+  "n": 942,
+  "R2": 0.7372030969702279,
+  "RMSE": 2.418805573846179,
+  "MAE": 1.5428689402738007,
+  "mean_residual": 2.685278279518001e-15
+ },
+ "after_qc": {
+  "n": 876,
+  "R2": 0.9103902620843243,
+  "RMSE": 1.3731592571004254,
+  "MAE": 1.099605231746097,
+  "mean_residual": 3.0417069167812507e-15
+ },
+ "removed": {
+  "n": 66,
+  "by_station": {
+   "Chelmno": 44,
+   "Gdansk_Swibno": 13,
+   "Torun": 9
+  },
+  "june_august": 38,
+  "mean_one_to_one_deviation": -3.2327770562770564
+ },
+ "retained_mean_one_to_one_deviation": -0.7184969015003263
+}
